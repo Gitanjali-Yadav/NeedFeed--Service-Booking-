@@ -1,0 +1,25 @@
+[
+    {
+      "model": "bookings.booking",
+      "pk": 1,
+      "fields": {
+        "user": 1,
+        "service": 1,
+        "booking_time": "2025-03-20T10:00:00Z",
+        "address": "123 Main St, City",
+        "special_instructions": "Please call before arrival",
+        "status": "P"
+      }
+    },
+    {
+      "model": "bookings.payment",
+      "pk": 1,
+      "fields": {
+        "booking": 1,
+        "amount": "500.00",
+        "transaction_id": "txn_123456",
+        "status": "S",
+        "payment_method": "Credit Card"
+      }
+    }
+  ]
